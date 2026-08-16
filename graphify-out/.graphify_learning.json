@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-08-16T00:03:11.448591+00:00",
+  "nodes": {
+    "core_download_workers_downloadworker": {
+      "code_fingerprint": "1d16a2bc64be40c2a068fc1a58e3973a94bc2cf90c7d3d4a33c5e96090c6aaf8",
+      "label": "DownloadWorker",
+      "last": "2026-08-15T23:53:51.216886+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-15T23:53:51.216886+00:00",
+          "outcome": "useful",
+          "q": "Mengapa GuiBehavior menghubungkan Download Behavior Controls dengan Main GUI Workflow dan GUI Loading Signals?"
+        }
+      ],
+      "score": 0.999850195,
+      "source_file": "core/download/workers.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "core_download_workers_filterworker": {
+      "code_fingerprint": "1d16a2bc64be40c2a068fc1a58e3973a94bc2cf90c7d3d4a33c5e96090c6aaf8",
+      "label": "FilterWorker",
+      "last": "2026-08-15T23:53:51.216886+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-15T23:53:51.216886+00:00",
+          "outcome": "useful",
+          "q": "Mengapa GuiBehavior menghubungkan Download Behavior Controls dengan Main GUI Workflow dan GUI Loading Signals?"
+        }
+      ],
+      "score": 0.999850195,
+      "source_file": "core/download/workers.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "core_gui_gui_guibehavior": {
+      "code_fingerprint": "dfce9ec77febb29f3a39c0b5fba99279c17a8a0ccc1aadd294e6ce470c624325",
+      "label": "GuiBehavior",
+      "last": "2026-08-15T23:53:51.216886+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-15T23:53:51.216886+00:00",
+          "outcome": "useful",
+          "q": "Mengapa GuiBehavior menghubungkan Download Behavior Controls dengan Main GUI Workflow dan GUI Loading Signals?"
+        }
+      ],
+      "score": 0.999850195,
+      "source_file": "core/gui/gui.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "core_gui_gui_guibehavior_add_links": {
+      "code_fingerprint": "dfce9ec77febb29f3a39c0b5fba99279c17a8a0ccc1aadd294e6ce470c624325",
+      "label": ".add_links()",
+      "last": "2026-08-15T23:53:51.216886+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-15T23:53:51.216886+00:00",
+          "outcome": "useful",
+          "q": "Mengapa GuiBehavior menghubungkan Download Behavior Controls dengan Main GUI Workflow dan GUI Loading Signals?"
+        }
+      ],
+      "score": 0.999850195,
+      "source_file": "core/gui/gui.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "core_gui_gui_guibehavior_download_receive_signal": {
+      "code_fingerprint": "dfce9ec77febb29f3a39c0b5fba99279c17a8a0ccc1aadd294e6ce470c624325",
+      "label": ".download_receive_signal()",
+      "last": "2026-08-15T23:53:51.216886+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-15T23:53:51.216886+00:00",
+          "outcome": "useful",
+          "q": "Mengapa GuiBehavior menghubungkan Download Behavior Controls dengan Main GUI Workflow dan GUI Loading Signals?"
+        }
+      ],
+      "score": 0.999850195,
+      "source_file": "core/gui/gui.py",
+      "status": "tentative",
+      "uses": 1
+    }
+  },
+  "version": 1
+}

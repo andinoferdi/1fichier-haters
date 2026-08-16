@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/r00tee/Proxy-List/main/Socks5.txt
+https://raw.githubusercontent.com/NikolaiT/free-proxy-list/refs/heads/main/proxies/socks5_working.txt

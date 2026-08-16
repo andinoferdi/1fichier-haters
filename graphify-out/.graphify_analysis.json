@@ -1,0 +1,451 @@
+{
+  "communities": {
+    "0": [
+      "core_gui_gui",
+      "core_gui_gui_abs_config",
+      "core_gui_gui_absp",
+      "core_gui_gui_alert",
+      "core_gui_gui_check_selection",
+      "core_gui_gui_create_file",
+      "core_gui_gui_getclipboardtext",
+      "core_gui_gui_gui",
+      "core_gui_gui_gui_add_links_clipboard",
+      "core_gui_gui_gui_add_links_complete",
+      "core_gui_gui_gui_add_links_win",
+      "core_gui_gui_gui_add_to_download_list",
+      "core_gui_gui_gui_hide_loading_overlay",
+      "core_gui_gui_gui_init",
+      "core_gui_gui_gui_main_init",
+      "core_gui_gui_gui_main_win",
+      "core_gui_gui_gui_settings_win",
+      "core_gui_gui_gui_show_loading_overlay",
+      "core_gui_gui_guibehavior",
+      "core_gui_gui_guibehavior_add_links",
+      "core_gui_gui_guibehavior_change_theme",
+      "core_gui_gui_guibehavior_download_receive_signal",
+      "core_gui_gui_guibehavior_get_language",
+      "core_gui_gui_guibehavior_handle_exit",
+      "core_gui_gui_guibehavior_handle_init",
+      "core_gui_gui_guibehavior_hide_loading_overlay",
+      "core_gui_gui_guibehavior_init",
+      "core_gui_gui_guibehavior_load_messages",
+      "core_gui_gui_guibehavior_pause_download",
+      "core_gui_gui_guibehavior_resume_download",
+      "core_gui_gui_guibehavior_save_settings",
+      "core_gui_gui_guibehavior_select_settings",
+      "core_gui_gui_guibehavior_set_dl_directory",
+      "core_gui_gui_guibehavior_set_language",
+      "core_gui_gui_guibehavior_show_loading_overlay",
+      "core_gui_gui_guibehavior_stop_download",
+      "core_gui_gui_guibehavior_update_receive_signal",
+      "core_gui_gui_rationale_110",
+      "core_gui_gui_rationale_148",
+      "core_gui_gui_rationale_162",
+      "core_gui_gui_rationale_173",
+      "core_gui_gui_rationale_186",
+      "core_gui_gui_rationale_216",
+      "core_gui_gui_rationale_246",
+      "core_gui_gui_rationale_269",
+      "core_gui_gui_rationale_337",
+      "core_gui_gui_rationale_344",
+      "core_gui_gui_rationale_54",
+      "core_gui_gui_rationale_65",
+      "core_gui_gui_rationale_79",
+      "core_gui_gui_resource_path"
+    ],
+    "1": [
+      "core_download_helpers",
+      "core_download_helpers_convert_size",
+      "core_download_helpers_download_speed",
+      "core_download_helpers_get_all_proxies",
+      "core_download_helpers_get_link_info",
+      "core_download_helpers_get_proxies",
+      "core_download_helpers_get_proxies_from_api",
+      "core_download_helpers_is_valid_link",
+      "core_download_helpers_process_proxy_list",
+      "core_download_helpers_rationale_101",
+      "core_download_helpers_rationale_115",
+      "core_download_helpers_rationale_131",
+      "core_download_helpers_rationale_162",
+      "core_download_helpers_rationale_19",
+      "core_download_recapcha",
+      "core_download_recapcha_ouo_bypass",
+      "core_download_recapcha_recaptchav3",
+      "core_download_workers",
+      "core_download_workers_downloadworker",
+      "core_download_workers_downloadworker_init",
+      "core_download_workers_downloadworker_load_proxies",
+      "core_download_workers_downloadworker_pause",
+      "core_download_workers_downloadworker_resume",
+      "core_download_workers_downloadworker_return_data",
+      "core_download_workers_downloadworker_stop",
+      "core_download_workers_filterworker",
+      "core_download_workers_filterworker_init",
+      "core_download_workers_filterworker_run",
+      "core_download_workers_workersignals",
+      "qobject",
+      "qrunnable"
+    ],
+    "2": [
+      "build_command_application_entrypoint",
+      "build_command_cffi_hidden_import",
+      "build_command_gui_resources",
+      "build_command_pyinstaller_onefile_command",
+      "https_proxy_list_claude89757",
+      "https_proxy_list_databay_labs",
+      "https_proxy_list_gfpcom",
+      "https_proxy_list_https_proxy_sources",
+      "https_proxy_list_nikolait",
+      "https_proxy_list_r00tee",
+      "https_proxy_list_roosterkid",
+      "requirements_beautifulsoup4",
+      "requirements_curl_cffi",
+      "requirements_lxml",
+      "requirements_pyinstaller",
+      "requirements_pyqt5",
+      "requirements_pyqtdarktheme",
+      "requirements_python_dependencies",
+      "requirements_requests",
+      "requirements_requests_socks",
+      "requirements_urllib3",
+      "socks5_proxy_list_nikolait",
+      "socks5_proxy_list_r00tee",
+      "socks5_proxy_list_socks5_proxy_sources"
+    ],
+    "3": [
+      "readme_1fichier_dl_project",
+      "readme_1fichier_download_manager",
+      "readme_asyncio_downloads",
+      "readme_clipboard_download",
+      "readme_custom_proxy_list",
+      "readme_feather_icons",
+      "readme_free_proxies_list",
+      "readme_loading_io",
+      "readme_multithread_proxy_downloads",
+      "readme_ouo_recaptcha_bypass",
+      "readme_project_lineage",
+      "readme_proxy_wait_bypass",
+      "readme_pyinstaller_build",
+      "readme_python_3_11",
+      "readme_slow_proxy_rotation",
+      "readme_svgrepo",
+      "readme_windows_onefile_executable"
+    ],
+    "4": [
+      "core_download_download",
+      "core_download_download_download",
+      "core_download_download_rationale_33",
+      "core_download_download_wait_for_password",
+      "core_download_workers_downloadworker_run",
+      "tests_test_download_retry_regression",
+      "tests_test_download_retry_regression_downloadretryregressiontest",
+      "tests_test_download_retry_regression_downloadretryregressiontest_test_invalid_href_retries_before_marking_bypassed",
+      "tests_test_download_retry_regression_downloadretryregressiontest_test_stream_request_failure_retries_with_next_proxy",
+      "tests_test_download_retry_regression_response",
+      "tests_test_download_retry_regression_response_init",
+      "tests_test_download_retry_regression_response_iter_content"
+    ],
+    "5": [
+      "screenshots_preview0_clipboard_link_input",
+      "screenshots_preview0_download_manager_shell",
+      "screenshots_preview0_downloads_table",
+      "screenshots_preview0_main_window_screenshot",
+      "screenshots_preview0_manual_link_input",
+      "screenshots_preview0_pause_control",
+      "screenshots_preview0_remove_control",
+      "screenshots_preview0_resume_control",
+      "screenshots_preview0_settings_access"
+    ],
+    "6": [
+      "screenshots_preview_settings1_connection_configuration",
+      "screenshots_preview_settings1_connection_settings_screenshot",
+      "screenshots_preview_settings1_connection_tab",
+      "screenshots_preview_settings1_dark_download_manager",
+      "screenshots_preview_settings1_direct_proxy_list_setting",
+      "screenshots_preview_settings1_request_timeout_setting",
+      "screenshots_preview_settings1_restart_required_constraint",
+      "screenshots_preview_settings1_settings_dialog",
+      "screenshots_preview_settings1_simultaneous_proxy_downloads_setting"
+    ],
+    "7": [
+      "screenshots_screenshot_dark_bottom_download_controls",
+      "screenshots_screenshot_dark_dark_theme",
+      "screenshots_screenshot_dark_dark_theme_screenshot",
+      "screenshots_screenshot_dark_download_directory_control",
+      "screenshots_screenshot_dark_download_manager_shell",
+      "screenshots_screenshot_dark_downloads_table",
+      "screenshots_screenshot_dark_settings_dialog",
+      "screenshots_screenshot_dark_theme_selector",
+      "screenshots_screenshot_dark_top_action_toolbar"
+    ],
+    "8": [
+      "screenshots_screenshot_light_bottom_download_controls",
+      "screenshots_screenshot_light_download_directory_control",
+      "screenshots_screenshot_light_download_manager_shell",
+      "screenshots_screenshot_light_downloads_table",
+      "screenshots_screenshot_light_light_theme",
+      "screenshots_screenshot_light_light_theme_screenshot",
+      "screenshots_screenshot_light_settings_dialog",
+      "screenshots_screenshot_light_theme_selector",
+      "screenshots_screenshot_light_top_action_toolbar"
+    ],
+    "9": [
+      "screenshots_preview_settings0_active_bypass_screenshot",
+      "screenshots_preview_settings0_bypass_attempt_counter",
+      "screenshots_preview_settings0_dark_download_manager",
+      "screenshots_preview_settings0_parallel_download_rows",
+      "screenshots_preview_settings0_password_state",
+      "screenshots_preview_settings0_proxy_bypass_status",
+      "screenshots_preview_settings0_proxy_server_column",
+      "screenshots_preview_settings0_zero_transfer_speed"
+    ],
+    "10": [
+      "screenshots_preview_1fichier_site_browser_address_bar",
+      "screenshots_preview_1fichier_site_browser_screenshot",
+      "screenshots_preview_1fichier_site_fichier_file_page",
+      "screenshots_preview_1fichier_site_file_metadata_panel",
+      "screenshots_preview_1fichier_site_highlighted_file_url",
+      "screenshots_preview_1fichier_site_premium_subscription_modal",
+      "screenshots_preview_1fichier_site_waiting_and_speed_limitations"
+    ],
+    "11": [
+      "screenshots_preview_ouo_shortlink_browser_address_bar",
+      "screenshots_preview_ouo_shortlink_browser_screenshot",
+      "screenshots_preview_ouo_shortlink_destination_gate_card",
+      "screenshots_preview_ouo_shortlink_destination_redirect_flow",
+      "screenshots_preview_ouo_shortlink_highlighted_short_url",
+      "screenshots_preview_ouo_shortlink_human_verification_button",
+      "screenshots_preview_ouo_shortlink_ouo_shortlink_page"
+    ],
+    "12": [
+      "core_gui_res_clipboard_clipboard_icon",
+      "core_gui_res_clipboard_clipboard_input_action",
+      "core_gui_res_clipboard_clipboard_visual_metaphor",
+      "core_gui_res_clipboard_feather_outline_style",
+      "core_gui_res_clipboard_indigo_action_accent"
+    ],
+    "13": [
+      "core_gui_res_zap_feather_zap_outline",
+      "core_gui_res_zap_indigo_action_accent",
+      "core_gui_res_zap_lightning_bolt_metaphor",
+      "core_gui_res_zap_speed_action_cue",
+      "core_gui_res_zap_zap_icon"
+    ],
+    "14": [
+      "screenshots_ico_application_icon",
+      "screenshots_ico_download_application_identity",
+      "screenshots_ico_download_arrow_symbol",
+      "screenshots_ico_indigo_brand_tile",
+      "screenshots_ico_rounded_square_tile"
+    ],
+    "15": [
+      "core_gui_res_ico_application_icon",
+      "core_gui_res_ico_application_identity",
+      "core_gui_res_ico_download_action",
+      "core_gui_res_ico_rounded_square_branding"
+    ],
+    "16": [
+      "core_gui_res_ico_vector_application_icon",
+      "core_gui_res_ico_vector_application_identity",
+      "core_gui_res_ico_vector_download_action",
+      "core_gui_res_ico_vector_scalable_brand_asset"
+    ],
+    "17": [
+      "core_gui_res_download_download_action",
+      "core_gui_res_download_download_icon",
+      "core_gui_res_download_downward_transfer_metaphor"
+    ],
+    "18": [
+      "core_gui_res_github_github_mark",
+      "core_gui_res_github_github_platform",
+      "core_gui_res_github_source_repository_navigation"
+    ],
+    "19": [
+      "core_gui_res_loading_image_cyclic_waiting_metaphor",
+      "core_gui_res_loading_image_indeterminate_progress",
+      "core_gui_res_loading_image_loading_spinner"
+    ],
+    "20": [
+      "core_gui_res_pause_download_control",
+      "core_gui_res_pause_pause_action",
+      "core_gui_res_pause_pause_icon"
+    ],
+    "21": [
+      "core_gui_res_resume_download_control",
+      "core_gui_res_resume_resume_action",
+      "core_gui_res_resume_resume_icon"
+    ],
+    "22": [
+      "core_gui_res_settings_application_preferences",
+      "core_gui_res_settings_configuration_action",
+      "core_gui_res_settings_settings_icon"
+    ],
+    "23": [
+      "core_gui_res_stop_destructive_control",
+      "core_gui_res_stop_stop_icon",
+      "core_gui_res_stop_stop_or_remove_action"
+    ],
+    "24": [
+      "1fichier_dl"
+    ],
+    "25": [
+      "core_download_init"
+    ],
+    "26": [
+      "hook_curl_cffi"
+    ]
+  },
+  "cohesion": {
+    "0": 0.06431372549019608,
+    "1": 0.0967741935483871,
+    "2": 0.08333333333333333,
+    "3": 0.11764705882352941,
+    "4": 0.18181818181818182,
+    "5": 0.2222222222222222,
+    "6": 0.2222222222222222,
+    "7": 0.2222222222222222,
+    "8": 0.2222222222222222,
+    "9": 0.25,
+    "10": 0.3333333333333333,
+    "11": 0.3333333333333333,
+    "12": 0.4,
+    "13": 0.4,
+    "14": 0.4,
+    "15": 0.5,
+    "16": 0.5,
+    "17": 0.6666666666666666,
+    "18": 0.6666666666666666,
+    "19": 0.6666666666666666,
+    "20": 0.6666666666666666,
+    "21": 0.6666666666666666,
+    "22": 0.6666666666666666,
+    "23": 0.6666666666666666,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0
+  },
+  "gods": [
+    {
+      "id": "core_gui_gui_guibehavior",
+      "label": "GuiBehavior",
+      "degree": 20
+    },
+    {
+      "id": "core_download_workers_downloadworker",
+      "label": "DownloadWorker",
+      "degree": 11
+    },
+    {
+      "id": "core_gui_gui_gui",
+      "label": "Gui",
+      "degree": 11
+    },
+    {
+      "id": "requirements_python_dependencies",
+      "label": "Python Dependency Set",
+      "degree": 9
+    },
+    {
+      "id": "readme_1fichier_dl_project",
+      "label": "1Fichier-dl Project",
+      "degree": 7
+    },
+    {
+      "id": "https_proxy_list_https_proxy_sources",
+      "label": "HTTPS Proxy Source List",
+      "degree": 7
+    },
+    {
+      "id": "core_download_workers_filterworker",
+      "label": "FilterWorker",
+      "degree": 6
+    },
+    {
+      "id": "core_gui_gui_check_selection",
+      "label": "check_selection()",
+      "degree": 6
+    },
+    {
+      "id": "readme_1fichier_download_manager",
+      "label": "1Fichier Download Manager",
+      "degree": 6
+    },
+    {
+      "id": "core_gui_gui_absp",
+      "label": "absp()",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "PyInstaller One-file Build Command",
+      "target": "PyInstaller 5.13.2",
+      "source_files": [
+        "build command.txt",
+        "requirements.txt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "requests[socks]",
+      "target": "SOCKS5 Proxy Source List",
+      "source_files": [
+        "requirements.txt",
+        "socks5_proxy_list.txt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "HTTPS Proxy Source List",
+      "target": "SOCKS5 Proxy Source List",
+      "source_files": [
+        "https_proxy_list.txt",
+        "socks5_proxy_list.txt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `DownloadWorker` connect `DownloadWorker` to `GuiBehavior`, `download.py`?",
+      "why": "High betweenness centrality (0.029) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `FilterWorker` connect `DownloadWorker` to `GuiBehavior`?",
+      "why": "High betweenness centrality (0.014) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `User-provided Proxy List`, `ouo.io reCAPTCHA Bypass`, `Add from Clipboard` to the rest of the system?",
+      "why": "81 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `GuiBehavior` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.06431372549019608 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `DownloadWorker` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.0967741935483871 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Python Dependency Set` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `1Fichier-dl Project` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

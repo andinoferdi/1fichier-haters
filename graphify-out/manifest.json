@@ -1,0 +1,172 @@
+{
+  ".vscode/settings.json": {
+    "mtime": 1786819833.4300091,
+    "ast_hash": "edb04558f38be3c92970081f42f1df77",
+    "semantic_hash": "edb04558f38be3c92970081f42f1df77"
+  },
+  "1fichier-dl.py": {
+    "mtime": 1786819833.4300091,
+    "ast_hash": "0e247dbebab57bd6ea1560d4113896c2",
+    "semantic_hash": "0e247dbebab57bd6ea1560d4113896c2"
+  },
+  "core/download/__init__.py": {
+    "mtime": 1786819833.4350088,
+    "ast_hash": "4ae7c6fb2a74ad0389c3a03562f235b5",
+    "semantic_hash": "4ae7c6fb2a74ad0389c3a03562f235b5"
+  },
+  "core/download/download.py": {
+    "mtime": 1786839366.2055664,
+    "ast_hash": "bcc3c5eca6c322a1c5429edbc9beebe1",
+    "semantic_hash": "bcc3c5eca6c322a1c5429edbc9beebe1"
+  },
+  "core/download/helpers.py": {
+    "mtime": 1786819833.4360087,
+    "ast_hash": "95ca52635452e7f95c9d7c8dd632e8fc",
+    "semantic_hash": "95ca52635452e7f95c9d7c8dd632e8fc"
+  },
+  "core/download/recapcha.py": {
+    "mtime": 1786819833.4360087,
+    "ast_hash": "112be2e956e13162694017158ab4f382",
+    "semantic_hash": "112be2e956e13162694017158ab4f382"
+  },
+  "core/download/workers.py": {
+    "mtime": 1786819833.4370084,
+    "ast_hash": "4a94a2f39edc7441524cd8bd7095f4cb",
+    "semantic_hash": "4a94a2f39edc7441524cd8bd7095f4cb"
+  },
+  "core/gui/gui.py": {
+    "mtime": 1786819833.4380085,
+    "ast_hash": "f0be1813b9acfcd9b865ee40dba56c61",
+    "semantic_hash": "f0be1813b9acfcd9b865ee40dba56c61"
+  },
+  "hook-curl_cffi.py": {
+    "mtime": 1786819833.5162325,
+    "ast_hash": "142869af8f1606f2832a11587eaef8cb",
+    "semantic_hash": "142869af8f1606f2832a11587eaef8cb"
+  },
+  "README.md": {
+    "mtime": 1786819833.4330113,
+    "ast_hash": "62aa5eb964171f9684f839f61ce77399",
+    "semantic_hash": "62aa5eb964171f9684f839f61ce77399"
+  },
+  "build command.txt": {
+    "mtime": 1786819833.4340103,
+    "ast_hash": "f8660507608cc39508d4bfd24f36d110",
+    "semantic_hash": "f8660507608cc39508d4bfd24f36d110"
+  },
+  "https_proxy_list.txt": {
+    "mtime": 1786819833.5172398,
+    "ast_hash": "af712b56eef5ee87279d0ace8ef97085",
+    "semantic_hash": "af712b56eef5ee87279d0ace8ef97085"
+  },
+  "requirements.txt": {
+    "mtime": 1786819833.5172398,
+    "ast_hash": "76e66dadcc5cb061b29bd0023ec4619e",
+    "semantic_hash": "76e66dadcc5cb061b29bd0023ec4619e"
+  },
+  "socks5_proxy_list.txt": {
+    "mtime": 1786819833.5272331,
+    "ast_hash": "00919723a1e98ec63c247fb829dd96de",
+    "semantic_hash": "00919723a1e98ec63c247fb829dd96de"
+  },
+  "core/gui/res/clipboard.svg": {
+    "mtime": 1786819833.5062332,
+    "ast_hash": "98458b5a2ea92770c9097c018f37b6dc",
+    "semantic_hash": "98458b5a2ea92770c9097c018f37b6dc"
+  },
+  "core/gui/res/download.svg": {
+    "mtime": 1786819833.5062332,
+    "ast_hash": "bd86e810290dddaa5e35d70a96405c98",
+    "semantic_hash": "bd86e810290dddaa5e35d70a96405c98"
+  },
+  "core/gui/res/github.svg": {
+    "mtime": 1786819833.5072327,
+    "ast_hash": "7ead7e3f5159a6bf2f3e5773c0318c21",
+    "semantic_hash": "7ead7e3f5159a6bf2f3e5773c0318c21"
+  },
+  "core/gui/res/ico.png": {
+    "mtime": 1786819833.509233,
+    "ast_hash": "e1386f95f2ea64e53441937125f1f633",
+    "semantic_hash": "e1386f95f2ea64e53441937125f1f633"
+  },
+  "core/gui/res/ico.svg": {
+    "mtime": 1786819833.510232,
+    "ast_hash": "2b759fa166d5a3dd2073b6efdefe0e1f",
+    "semantic_hash": "2b759fa166d5a3dd2073b6efdefe0e1f"
+  },
+  "core/gui/res/loading_image.svg": {
+    "mtime": 1786819833.510232,
+    "ast_hash": "e2ed11592bf68ffe6867c09bcc94b45e",
+    "semantic_hash": "e2ed11592bf68ffe6867c09bcc94b45e"
+  },
+  "core/gui/res/pause.svg": {
+    "mtime": 1786819833.511232,
+    "ast_hash": "c63cbc99a0a470d4c981040cd8d4e895",
+    "semantic_hash": "c63cbc99a0a470d4c981040cd8d4e895"
+  },
+  "core/gui/res/resume.svg": {
+    "mtime": 1786819833.5122316,
+    "ast_hash": "d6bd342152f00e75282a469383ae858c",
+    "semantic_hash": "d6bd342152f00e75282a469383ae858c"
+  },
+  "core/gui/res/settings.svg": {
+    "mtime": 1786819833.514232,
+    "ast_hash": "e9fb7030678e3cca4b3634e1770318cd",
+    "semantic_hash": "e9fb7030678e3cca4b3634e1770318cd"
+  },
+  "core/gui/res/stop.svg": {
+    "mtime": 1786819833.514232,
+    "ast_hash": "f736063c41ee6bcb33c3c36a8548b5d3",
+    "semantic_hash": "f736063c41ee6bcb33c3c36a8548b5d3"
+  },
+  "core/gui/res/zap.svg": {
+    "mtime": 1786819833.5152318,
+    "ast_hash": "1da9d8f77c6e9bfd01a078f27da1705a",
+    "semantic_hash": "1da9d8f77c6e9bfd01a078f27da1705a"
+  },
+  "screenshots/Screenshot_Dark.png": {
+    "mtime": 1786819833.518232,
+    "ast_hash": "d84b92528e8859f9710c1dd423d4ac18",
+    "semantic_hash": "d84b92528e8859f9710c1dd423d4ac18"
+  },
+  "screenshots/Screenshot_Light.png": {
+    "mtime": 1786819833.5192318,
+    "ast_hash": "37dff4e01cfdd1367bf3b32707409416",
+    "semantic_hash": "37dff4e01cfdd1367bf3b32707409416"
+  },
+  "screenshots/ico.png": {
+    "mtime": 1786819833.5202317,
+    "ast_hash": "e1386f95f2ea64e53441937125f1f633",
+    "semantic_hash": "e1386f95f2ea64e53441937125f1f633"
+  },
+  "screenshots/preview-1fichier-site.png": {
+    "mtime": 1786819833.5222428,
+    "ast_hash": "21746a0436d7f45b2b44c454c13f20f9",
+    "semantic_hash": "21746a0436d7f45b2b44c454c13f20f9"
+  },
+  "screenshots/preview-ouo-shortlink.png": {
+    "mtime": 1786819833.5232332,
+    "ast_hash": "23faf825baaa62faf29be690d1e24889",
+    "semantic_hash": "23faf825baaa62faf29be690d1e24889"
+  },
+  "screenshots/preview0.png": {
+    "mtime": 1786819833.524232,
+    "ast_hash": "f26836d7afac368d6161be76be27a364",
+    "semantic_hash": "f26836d7afac368d6161be76be27a364"
+  },
+  "screenshots/preview_settings0.png": {
+    "mtime": 1786819833.5252337,
+    "ast_hash": "fda5ffa91821ecd08ad1745985aa8418",
+    "semantic_hash": "fda5ffa91821ecd08ad1745985aa8418"
+  },
+  "screenshots/preview_settings1.png": {
+    "mtime": 1786819833.5262437,
+    "ast_hash": "65169fd168e5ed27f9a3d0f10da910df",
+    "semantic_hash": "65169fd168e5ed27f9a3d0f10da910df"
+  },
+  "tests/test_download_retry_regression.py": {
+    "mtime": 1786839586.3671863,
+    "ast_hash": "cddf3aff021aa8dc06386fffaf3db933",
+    "semantic_hash": "cddf3aff021aa8dc06386fffaf3db933"
+  }
+}
