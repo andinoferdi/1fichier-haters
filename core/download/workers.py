@@ -28,6 +28,7 @@ class FilterWorker(QRunnable):
         self.gui = actions.gui
         self.cached_downloads = actions.cached_downloads
         self.cached_download = cached_download
+        self.active_links = {worker.link for worker in actions.download_workers}
         self.signals = WorkerSignals()
         self.dl_name = cached_download[1] if self.cached_download else None
         self.password = cached_download[2] if self.cached_download else (
@@ -70,6 +71,9 @@ class FilterWorker(QRunnable):
                         if not (link.startswith('https://') or link.startswith('http://')):
                             link = f'https://{link}'
                         link = link.split('&')[0]
+                        if link in self.valid_links or link in self.active_links:
+                            logging.debug('Skipping duplicate link: ' + str(link))
+                            continue
                         self.valid_links.append(link)
                     else:
                         raise ValueError(f'Invalid link format: {link}')
@@ -88,6 +92,10 @@ class FilterWorker(QRunnable):
                 # Add link text
                 self.gui.add_links_complete()
             else :
+                if not self.valid_links:
+                    self.gui.hide_loading_overlay()
+                    self.gui.add_links_complete()
+                    return
                 for link in self.valid_links:
                     try:
                         if '/dir/' in link:

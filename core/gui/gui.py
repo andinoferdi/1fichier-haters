@@ -113,7 +113,8 @@ class GuiBehavior:
         '''
         try:
             with open(abs_config('app/cache'), 'rb') as f:
-                self.cached_downloads = pickle.load(f)
+                cached_downloads = pickle.load(f)
+                self.cached_downloads = list({download[0]: download for download in cached_downloads}.values())
                 for download in self.cached_downloads:
                     self.gui.links = download[0]
                     self.add_links(True, download)

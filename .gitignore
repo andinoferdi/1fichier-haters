@@ -29,6 +29,7 @@ share/python-wheels/
 MANIFEST
 test*.py
 !tests/test_download_retry_regression.py
+!tests/test_duplicate_download_regression.py
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
